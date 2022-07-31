@@ -372,6 +372,11 @@ body {
   color: #fff;
 }
 
+.menu__link--arrow{
+  width: 12px;
+  margin-right: 8px;
+}
+
 /** ----- Styles Footer ----- **/
 .footer {
   background-color: var(--bgFooter);
@@ -445,6 +450,18 @@ body {
 
 /**! ----- Styles Responsive Design ----- !**/
 @media (max-width: 1144px) {
+  .content__images {
+    grid-column: 1/6;
+    grid-row: 1/-1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5em;
+  }
+
+  .section__menu{
+    grid-column: 6/-1;
+  }
+
   .destination {
     margin-left: 185px;
   }
