@@ -448,7 +448,7 @@ body {
   margin-top: 10px;
 }
 
-/**! ----- Styles Responsive Design ----- !**/
+/** ----- Styles Responsive Design ----- **/
 @media (max-width: 1144px) {
   .content__images {
     grid-column: 1/6;
